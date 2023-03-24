@@ -18,6 +18,7 @@ def main():
 
     stop_listening = r.listen_in_background(m, callback, phrase_time_limit=3)
 
+
     while True:
         pass
 
